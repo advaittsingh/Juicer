@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87FCAFD82C5F727A00A3EBC3 /* JuicerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCAFD72C5F727A00A3EBC3 /* JuicerApp.swift */; };
+		87FCAFDC2C5F727B00A3EBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FCAFDB2C5F727B00A3EBC3 /* Assets.xcassets */; };
+		87FCAFDF2C5F727B00A3EBC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FCAFDE2C5F727B00A3EBC3 /* Preview Assets.xcassets */; };
+		87FCAFE92C5F727B00A3EBC3 /* JuicerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCAFE82C5F727B00A3EBC3 /* JuicerTests.swift */; };
+		87FCAFF32C5F727B00A3EBC3 /* JuicerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCAFF22C5F727B00A3EBC3 /* JuicerUITests.swift */; };
+		87FCAFF52C5F727B00A3EBC3 /* JuicerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCAFF42C5F727B00A3EBC3 /* JuicerUITestsLaunchTests.swift */; };
+		87FCB0022C5F739F00A3EBC3 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FCB0012C5F739F00A3EBC3 /* HomeScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87FCAFE52C5F727B00A3EBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FCAFCC2C5F727A00A3EBC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FCAFD32C5F727A00A3EBC3;
+			remoteInfo = Juicer;
+		};
+		87FCAFEF2C5F727B00A3EBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FCAFCC2C5F727A00A3EBC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FCAFD32C5F727A00A3EBC3;
+			remoteInfo = Juicer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87FCAFD42C5F727A00A3EBC3 /* Juicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juicer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FCAFD72C5F727A00A3EBC3 /* JuicerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuicerApp.swift; sourceTree = "<group>"; };
+		87FCAFDB2C5F727B00A3EBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87FCAFDE2C5F727B00A3EBC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87FCAFE42C5F727B00A3EBC3 /* JuicerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuicerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FCAFE82C5F727B00A3EBC3 /* JuicerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuicerTests.swift; sourceTree = "<group>"; };
+		87FCAFEE2C5F727B00A3EBC3 /* JuicerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuicerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FCAFF22C5F727B00A3EBC3 /* JuicerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuicerUITests.swift; sourceTree = "<group>"; };
+		87FCAFF42C5F727B00A3EBC3 /* JuicerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuicerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87FCB0012C5F739F00A3EBC3 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FCAFD12C5F727A00A3EBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCAFE12C5F727B00A3EBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCAFEB2C5F727B00A3EBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87FCAFCB2C5F727A00A3EBC3 = {
+			isa = PBXGroup;
+			children = (
+				87FCAFD62C5F727A00A3EBC3 /* Juicer */,
+				87FCAFE72C5F727B00A3EBC3 /* JuicerTests */,
+				87FCAFF12C5F727B00A3EBC3 /* JuicerUITests */,
+				87FCAFD52C5F727A00A3EBC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87FCAFD52C5F727A00A3EBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87FCAFD42C5F727A00A3EBC3 /* Juicer.app */,
+				87FCAFE42C5F727B00A3EBC3 /* JuicerTests.xctest */,
+				87FCAFEE2C5F727B00A3EBC3 /* JuicerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FCAFD62C5F727A00A3EBC3 /* Juicer */ = {
+			isa = PBXGroup;
+			children = (
+				87FCAFD72C5F727A00A3EBC3 /* JuicerApp.swift */,
+				87FCB0012C5F739F00A3EBC3 /* HomeScreen.swift */,
+				87FCAFDB2C5F727B00A3EBC3 /* Assets.xcassets */,
+				87FCAFDD2C5F727B00A3EBC3 /* Preview Content */,
+			);
+			path = Juicer;
+			sourceTree = "<group>";
+		};
+		87FCAFDD2C5F727B00A3EBC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87FCAFDE2C5F727B00A3EBC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87FCAFE72C5F727B00A3EBC3 /* JuicerTests */ = {
+			isa = PBXGroup;
+			children = (
+				87FCAFE82C5F727B00A3EBC3 /* JuicerTests.swift */,
+			);
+			path = JuicerTests;
+			sourceTree = "<group>";
+		};
+		87FCAFF12C5F727B00A3EBC3 /* JuicerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87FCAFF22C5F727B00A3EBC3 /* JuicerUITests.swift */,
+				87FCAFF42C5F727B00A3EBC3 /* JuicerUITestsLaunchTests.swift */,
+			);
+			path = JuicerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87FCAFD32C5F727A00A3EBC3 /* Juicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCAFF82C5F727B00A3EBC3 /* Build configuration list for PBXNativeTarget "Juicer" */;
+			buildPhases = (
+				87FCAFD02C5F727A00A3EBC3 /* Sources */,
+				87FCAFD12C5F727A00A3EBC3 /* Frameworks */,
+				87FCAFD22C5F727A00A3EBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juicer;
+			productName = Juicer;
+			productReference = 87FCAFD42C5F727A00A3EBC3 /* Juicer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87FCAFE32C5F727B00A3EBC3 /* JuicerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCAFFB2C5F727B00A3EBC3 /* Build configuration list for PBXNativeTarget "JuicerTests" */;
+			buildPhases = (
+				87FCAFE02C5F727B00A3EBC3 /* Sources */,
+				87FCAFE12C5F727B00A3EBC3 /* Frameworks */,
+				87FCAFE22C5F727B00A3EBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FCAFE62C5F727B00A3EBC3 /* PBXTargetDependency */,
+			);
+			name = JuicerTests;
+			productName = JuicerTests;
+			productReference = 87FCAFE42C5F727B00A3EBC3 /* JuicerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87FCAFED2C5F727B00A3EBC3 /* JuicerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCAFFE2C5F727B00A3EBC3 /* Build configuration list for PBXNativeTarget "JuicerUITests" */;
+			buildPhases = (
+				87FCAFEA2C5F727B00A3EBC3 /* Sources */,
+				87FCAFEB2C5F727B00A3EBC3 /* Frameworks */,
+				87FCAFEC2C5F727B00A3EBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FCAFF02C5F727B00A3EBC3 /* PBXTargetDependency */,
+			);
+			name = JuicerUITests;
+			productName = JuicerUITests;
+			productReference = 87FCAFEE2C5F727B00A3EBC3 /* JuicerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FCAFCC2C5F727A00A3EBC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					87FCAFD32C5F727A00A3EBC3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					87FCAFE32C5F727B00A3EBC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 87FCAFD32C5F727A00A3EBC3;
+					};
+					87FCAFED2C5F727B00A3EBC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 87FCAFD32C5F727A00A3EBC3;
+					};
+				};
+			};
+			buildConfigurationList = 87FCAFCF2C5F727A00A3EBC3 /* Build configuration list for PBXProject "Juicer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87FCAFCB2C5F727A00A3EBC3;
+			productRefGroup = 87FCAFD52C5F727A00A3EBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87FCAFD32C5F727A00A3EBC3 /* Juicer */,
+				87FCAFE32C5F727B00A3EBC3 /* JuicerTests */,
+				87FCAFED2C5F727B00A3EBC3 /* JuicerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87FCAFD22C5F727A00A3EBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCAFDF2C5F727B00A3EBC3 /* Preview Assets.xcassets in Resources */,
+				87FCAFDC2C5F727B00A3EBC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCAFE22C5F727B00A3EBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCAFEC2C5F727B00A3EBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FCAFD02C5F727A00A3EBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCAFD82C5F727A00A3EBC3 /* JuicerApp.swift in Sources */,
+				87FCB0022C5F739F00A3EBC3 /* HomeScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCAFE02C5F727B00A3EBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCAFE92C5F727B00A3EBC3 /* JuicerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCAFEA2C5F727B00A3EBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FCAFF52C5F727B00A3EBC3 /* JuicerUITestsLaunchTests.swift in Sources */,
+				87FCAFF32C5F727B00A3EBC3 /* JuicerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87FCAFE62C5F727B00A3EBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FCAFD32C5F727A00A3EBC3 /* Juicer */;
+			targetProxy = 87FCAFE52C5F727B00A3EBC3 /* PBXContainerItemProxy */;
+		};
+		87FCAFF02C5F727B00A3EBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FCAFD32C5F727A00A3EBC3 /* Juicer */;
+			targetProxy = 87FCAFEF2C5F727B00A3EBC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87FCAFF62C5F727B00A3EBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87FCAFF72C5F727B00A3EBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87FCAFF92C5F727B00A3EBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Juicer/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DG2D5PAKD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "advait-singh.Juicer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87FCAFFA2C5F727B00A3EBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Juicer/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DG2D5PAKD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "advait-singh.Juicer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87FCAFFC2C5F727B00A3EBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DG2D5PAKD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "advait-singh.JuicerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juicer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Juicer";
+			};
+			name = Debug;
+		};
+		87FCAFFD2C5F727B00A3EBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DG2D5PAKD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "advait-singh.JuicerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juicer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Juicer";
+			};
+			name = Release;
+		};
+		87FCAFFF2C5F727B00A3EBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DG2D5PAKD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "advait-singh.JuicerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Juicer;
+			};
+			name = Debug;
+		};
+		87FCB0002C5F727B00A3EBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DG2D5PAKD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "advait-singh.JuicerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Juicer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87FCAFCF2C5F727A00A3EBC3 /* Build configuration list for PBXProject "Juicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCAFF62C5F727B00A3EBC3 /* Debug */,
+				87FCAFF72C5F727B00A3EBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCAFF82C5F727B00A3EBC3 /* Build configuration list for PBXNativeTarget "Juicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCAFF92C5F727B00A3EBC3 /* Debug */,
+				87FCAFFA2C5F727B00A3EBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCAFFB2C5F727B00A3EBC3 /* Build configuration list for PBXNativeTarget "JuicerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCAFFC2C5F727B00A3EBC3 /* Debug */,
+				87FCAFFD2C5F727B00A3EBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCAFFE2C5F727B00A3EBC3 /* Build configuration list for PBXNativeTarget "JuicerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FCAFFF2C5F727B00A3EBC3 /* Debug */,
+				87FCB0002C5F727B00A3EBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FCAFCC2C5F727A00A3EBC3 /* Project object */;
+}
